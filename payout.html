@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+<div class="container pt-4 d-flex justify-content-center">
+    <form>
+        <div class="row w-80 pt-4">
+            <p class="display-6" ><strong>Payment page</strong></p>
+        </div>
+
+            <div class="row progress">
+                <div class="progress-bar progress-bar-striped" style="width: 100%">
+                    <span style="width: 100%">Step 4: Payment</span>
+                </div>
+            </div>
+        <div class="row w-80 pt-4">
+            <label for="name" class="form-label"><strong>Name on card</strong></label>
+            <input id="name" type="text" class="form-control" >
+        </div>
+        <div class="row w-80 pt-4">
+            <label for="number" class="form-label"><strong>Card number</strong></label>
+            <input id="number" type="number" class="form-control" >
+        </div>
+        <div class="row w-80 pt-4">
+            <label for="addr" class="form-label"><strong>Billing address</strong></label>
+            <input id="addr" type="text" class="form-control" >
+        </div>
+        <div class="row w-80 pt-4">
+            <div class="col-4">
+                <label for="cvc" class="form-label"><strong>CVC</strong></label>
+                <input id="cvc" type="number" class="form-control" placeholder="ex. 311" >
+            </div>
+            <div class="col-4">
+                <label for="month" class="form-label"><strong>Expiration</strong></label>
+                <input id="month" type="text" class="form-control" placeholder="MM" >
+            </div>
+            <div class="col-4 form">
+                <label for="year" class="form-label"><strong>Year</strong></label>
+                <input id="year" type="text" class="form-control" placeholder="YYYY">
+            </div>
+        </div>
+        <div class="row w-80 pt-4">
+            <button type="button" class="btn btn-success"><p class="badge rounded-pill bg-white text-success">Your total today: $300</p></button>
+
+        </div>
+        <div class="row w-80 pt-4">
+            <button type="button" class="btn btn-primary"><p class="badge text-white">Pay<span class="badge"><strong>>></strong></span></p></button>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
